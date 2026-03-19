@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>角色社区 - AI数字员工</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- 导航栏 -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo"><span class="logo-icon"></span>AI数字员工</a>
+      <div class="menu-toggle"><span></span><span></span><span></span></div>
+      <div class="nav-links">
+        <a href="index.html">首页</a>
+        <a href="community.html" class="active">角色社区</a>
+        <a href="cases.html">客户案例</a>
+        <a href="contact.html">联系我们</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 页面标题 -->
+  <section class="page-header">
+    <div class="container">
+      <h1>角色社区</h1>
+      <p>发现更多AI数字员工，找到最适合你的那一个</p>
+      <p class="subtitle-link">你也想提供/创建相关角色？<a href="#cocreation">欢迎加入角色共创计划 →</a></p>
+    </div>
+  </section>
+
+  <!-- 员工列表 -->
+  <section class="employee-list">
+    <div class="container">
+      <div class="sort-controls">
+        <span class="sort-item active" id="sortHired" onclick="sortBy('hired')">按被招募次数 <span class="sort-arrow">↓</span></span>
+        <span class="sort-divider">|</span>
+        <span class="sort-item" id="sortPrice" onclick="sortBy('price')">按价格 <span class="sort-arrow">↓</span></span>
+      </div>
+      
+      <div id="employee-list-container">
+        <!-- 员工列表由JS动态渲染 -->
+      </div>
+      
+      <div class="pagination" id="pagination">
+        <!-- 分页由JS动态渲染 -->
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- 角色共创计划 -->
+  <section class="cocreation-section" id="cocreation">
+    <div class="container">
+      <h2 class="cocreation-title">角色共创计划</h2>
+      <p class="cocreation-intro"><strong>您或您的团队，是否对当前的工作中的重复繁杂的操作，感到厌倦？</strong></p>
+      <p class="cocreation-intro" style="margin-top: -20px;">那就和我们一起创建专精您行业内的AI数字员工吧</p>
+      
+      <div class="cocreation-content">
+        <div class="cocreation-example">
+          <img loading="lazy" loading="lazy" src="images/huaxiaoyi.png" alt="画小艺" class="cocreation-avatar">
+          <p><strong>绘画工作室的助手 画小艺</strong>——她会查询专业的绘画行业相关资讯，强化学习过的图片理解和点评能力，特别擅长绘画作品分类和绘画类宣传海报制作。</p>
+        </div>
+        
+        <div class="cocreation-value">
+          <h3 class="cocreation-value-title">为什么参与角色共创？</h3>
+          <ul class="cocreation-value-list">
+            <li><strong>优化工作流程</strong> — 一起打造更高效的工作方式，让AI帮你提效</li>
+            <li><strong>享受长期收益</strong> — 角色被招募次数越多，收益越高</li>
+            <li><strong>拥抱AI未来</strong> — 站在AI浪潮前沿，共同探索智能办公新方式</li>
+          </ul>
+        </div>
+        
+        <div class="cocreation-industries">
+          <h3>欢迎参与的行业</h3>
+          <div class="industry-tags">
+            <span class="industry-tag">游戏工作室</span>
+            <span class="industry-tag">个人电商</span>
+            <span class="industry-tag">代购</span>
+            <span class="industry-tag">餐饮</span>
+            <span class="industry-tag">教育</span>
+            <span class="industry-tag">更多行业...</span>
+          </div>
+        </div>
+      </div>
+      
+      <div style="text-align: center; margin-top: 30px;">
+        <a href="contact.html" style="color: var(--primary); text-decoration: none; font-size: 15px;">联系我们参与共创 →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 底部 -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="#faq">常见问题</a>
+        <a href="contact.html">联系我们</a>
+        <a href="contact.html#about">关于我们</a>
+      </div>
+      <p class="copyright">© 2026 AI数字员工 - AI无限畅想团队</p>
+    </div>
+  </footer>
+  
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/community.js"></script>
+</body>
+</html>
