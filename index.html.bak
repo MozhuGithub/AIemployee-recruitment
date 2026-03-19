@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI数字员工 - 招募你的智能助手</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- 导航栏 -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo"><span class="logo-icon"></span>AI数字员工</a>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="nav-links">
+        <a href="index.html" class="active">首页</a>
+        <a href="community.html">角色社区</a>
+        <a href="cases.html">客户案例</a>
+        <a href="contact.html">联系我们</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 首屏 -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero-title">在你的<span class="highlight">电脑</span>上，配置一个<span class="highlight">AI数字员工</span>！</h1>
+      <p class="hero-subtitle">做网站、写文案、收集整理资料...你只需要聊天下指令，AI员工自动帮你搞定</p>
+      <p class="hero-stats">已经有 <span class="highlight">1275</span> 个AI数字员工被招募</p>
+      <a href="#employees" class="cta-button">立即招募</a>
+      
+      <!-- 四个使用场景 - 一行显示 -->
+      <div class="hero-scenarios">
+        <a href="employee-xiaowei.html" class="mini-scenario">
+          <img loading="lazy" src="images/admin.png" alt="行政">
+          <div class="scenario-content">
+            <span class="pain">"每天杂事一堆，根本忙不过来，要是有个助手就好了..."</span>
+            <span class="solve">你放心，这些杂事交给我</span>
+          </div>
+        </a>
+        <a href="employee-nuannuan.html" class="mini-scenario">
+          <img loading="lazy" src="images/ecommerce.png" alt="电商">
+          <div class="scenario-content">
+            <span class="pain">"数据分析太费时间，文案写到手软，一个人根本干不完..."</span>
+            <span class="solve">数据和文案，我全包了</span>
+          </div>
+        </a>
+        <a href="employee-ajie.html" class="mini-scenario">
+          <img loading="lazy" src="images/boss.png" alt="老板">
+          <div class="scenario-content">
+            <span class="pain">"有个想法想做网站，但找外包太贵，自己又不会..."</span>
+            <span class="solve">这对我来说小事一桩</span>
+          </div>
+        </a>
+        <a href="employee-huaxiaoyi.html" class="mini-scenario">
+          <img loading="lazy" src="images/huaxiaoyi_studio.png" alt="画小艺">
+          <div class="scenario-content">
+            <span class="pain">作品堆成山，点评忙不过来，还要整理各类画作…</span>
+            <span class="solve">放心交给我，看我帮你调教它们~</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 员工展示 -->
+  <section class="employees" id="employees">
+    <div class="container">
+      <h2 class="section-title">热门AI员工</h2>
+      <div class="employee-grid">
+        <!-- 画小艺 -->
+        <div class="employee-card" data-employee-id="huaxiaoyi">
+          <div class="employee-avatar huaxiaoyi"></div>
+          <h3 class="employee-name">画小艺</h3>
+          <p class="employee-role">绘画助手</p>
+          <p class="employee-desc">行业资讯、作品点评、画作整理、海报文案</p>
+          <div class="employee-price"><span class="original-price">¥368</span><span class="sale-price">¥298</span> <span class="price-unit">/ ¥69月</span></div>
+          <div class="employee-hired">已被招募 <span class="hired-count">180</span> 次</div>
+          <a href="employee-huaxiaoyi.html" class="hire-button">招募</a>
+        </div>
+        <!-- 阿杰 -->
+        <div class="employee-card" data-employee-id="ajie">
+          <div class="employee-avatar ajie"></div>
+          <h3 class="employee-name">阿杰</h3>
+          <p class="employee-role">程序员</p>
+          <p class="employee-desc">做网站、小程序、技术支持、自动化脚本</p>
+          <div class="employee-price"><span class="original-price">¥338</span><span class="sale-price">¥268</span> <span class="price-unit">/ ¥49月</span></div>
+          <div class="employee-hired">已被招募 <span class="hired-count">320</span> 次</div>
+          <a href="employee-ajie.html" class="hire-button">招募</a>
+        </div>
+        <!-- 小薇 -->
+        <div class="employee-card" data-employee-id="xiaowei">
+          <div class="employee-avatar xiaowei"></div>
+          <h3 class="employee-name">小薇</h3>
+          <p class="employee-role">行政助理</p>
+          <p class="employee-desc">资料整理、表格处理、查信息、日程管理</p>
+          <div class="employee-price"><span class="original-price">¥258</span><span class="sale-price">¥198</span> <span class="price-unit">/ ¥39月</span></div>
+          <div class="employee-hired">已被招募 <span class="hired-count">220</span> 次</div>
+          <a href="employee-xiaowei.html" class="hire-button">招募</a>
+        </div>
+        <!-- 暖暖 -->
+        <div class="employee-card" data-employee-id="nuannuan">
+          <div class="employee-avatar nuannuan"></div>
+          <h3 class="employee-name">暖暖</h3>
+          <p class="employee-role">运营专家</p>
+          <p class="employee-desc">文案撰写、内容策划、翻译、数据分析</p>
+          <div class="employee-price"><span class="original-price">¥318</span><span class="sale-price">¥248</span> <span class="price-unit">/ ¥49月</span></div>
+          <div class="employee-hired">已被招募 <span class="hired-count">280</span> 次</div>
+          <a href="employee-nuannuan.html" class="hire-button">招募</a>
+        </div>
+        <!-- 芳姐 -->
+        <div class="employee-card" data-employee-id="fangjie">
+          <div class="employee-avatar fangjie"></div>
+          <h3 class="employee-name">芳姐</h3>
+          <p class="employee-role">情感陪伴</p>
+          <p class="employee-desc">倾听烦恼、情绪疏导、聊天陪伴</p>
+          <div class="employee-price"><span class="original-price">¥128</span><span class="sale-price">¥98</span> <span class="price-unit">/ ¥29月</span></div>
+          <div class="employee-hired">已被招募 <span class="hired-count">150</span> 次</div>
+          <a href="employee-fangjie.html" class="hire-button">招募</a>
+        </div>
+        <!-- 老张 -->
+        <div class="employee-card" data-employee-id="laozhang">
+          <div class="employee-avatar laozhang"></div>
+          <h3 class="employee-name">老张</h3>
+          <p class="employee-role">IT专家</p>
+          <p class="employee-desc">电脑故障排查、软件指导、系统优化</p>
+          <div class="employee-price"><span class="original-price">¥198</span><span class="sale-price">¥158</span> <span class="price-unit">/ ¥39月</span></div>
+          <div class="employee-hired">已被招募 <span class="hired-count">125</span> 次</div>
+          <a href="employee-laozhang.html" class="hire-button">招募</a>
+        </div>
+      </div>
+      <div class="employee-actions">
+        <a href="community.html" class="view-more">查看更多角色 →</a>
+        <a href="community.html#cocreation" class="create-employee">我也想创建/提供被招募员工</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 招募流程 -->
+  <section class="process" id="process">
+    <div class="container">
+      <h2 class="section-title">4步招募，轻松上手</h2>
+      <div class="process-steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-icon">📱</div>
+          <h3>添加客服微信</h3>
+          <p>扫码添加客服微信</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-icon">💰</div>
+          <h3>购买您想要的角色</h3>
+          <p>选择员工，完成支付</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-icon">🚀</div>
+          <h3>我们远程部署</h3>
+          <p>您只需使用，不用操心技术</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-number">4</div>
+          <div class="step-icon">✅</div>
+          <h3>7天有问题免费处理</h3>
+          <p>售后无忧，有问题随时找</p>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 30px;">
+        <a href="contact.html" style="color: var(--primary); text-decoration: none; font-size: 15px;">立即招募 →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 底部 -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="#faq">常见问题</a>
+        <a href="contact.html">联系我们</a>
+        <a href="contact.html#about">关于我们</a>
+      </div>
+      <p class="copyright">© 2026 AI数字员工 - AI无限畅想团队</p>
+    </div>
+  </footer>
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
