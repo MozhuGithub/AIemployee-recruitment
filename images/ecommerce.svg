@@ -1,0 +1,73 @@
+<!-- 人物2：电商女性从业者 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 280" width="200" height="280">
+  <defs>
+    <linearGradient id="skinGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fce7d6"/>
+      <stop offset="100%" style="stop-color:#f5d5c0"/>
+    </linearGradient>
+    <linearGradient id="hairGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d1f14"/>
+      <stop offset="100%" style="stop-color:#1a110a"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 身体 -->
+  <path d="M40 280 Q40 180 100 170 Q160 180 160 280" fill="#f43f5e"/>
+  
+  <!-- 脖子 -->
+  <rect x="88" y="145" width="24" height="30" fill="url(#skinGrad2)"/>
+  
+  <!-- 头发后部 - 短发 -->
+  <ellipse cx="100" cy="80" rx="52" ry="55" fill="url(#hairGrad2)"/>
+  
+  <!-- 脸 -->
+  <ellipse cx="100" cy="90" rx="48" ry="52" fill="url(#skinGrad2)"/>
+  
+  <!-- 短发刘海 -->
+  <path d="M48 70 Q55 45 100 40 Q145 45 152 70 Q145 50 100 45 Q55 50 48 70" fill="url(#hairGrad2)"/>
+  <path d="M48 70 Q45 85 50 95" stroke="url(#hairGrad2)" stroke-width="8" fill="none"/>
+  <path d="M152 70 Q155 85 150 95" stroke="url(#hairGrad2)" stroke-width="8" fill="none"/>
+  
+  <!-- 眉毛 -->
+  <path d="M65 78 Q75 74 85 78" stroke="#2d1f14" stroke-width="2" fill="none"/>
+  <path d="M115 78 Q125 74 135 78" stroke="#2d1f14" stroke-width="2" fill="none"/>
+  
+  <!-- 眼睛 -->
+  <ellipse cx="75" cy="90" rx="8" ry="6" fill="#fff"/>
+  <ellipse cx="125" cy="90" rx="8" ry="6" fill="#fff"/>
+  <circle cx="77" cy="90" r="4" fill="#2d1f14"/>
+  <circle cx="127" cy="90" r="4" fill="#2d1f14"/>
+  <circle cx="78" cy="89" r="1.5" fill="#fff"/>
+  <circle cx="128" cy="89" r="1.5" fill="#fff"/>
+  
+  <!-- 鼻子 -->
+  <path d="M100 95 L98 110 L102 110" stroke="#d4a98a" stroke-width="2" fill="none"/>
+  
+  <!-- 嘴巴 - 自信微笑 -->
+  <path d="M88 122 Q100 128 112 122" stroke="#e07070" stroke-width="2.5" fill="none"/>
+  
+  <!-- 耳环 -->
+  <circle cx="52" cy="100" r="3" fill="#fbbf24"/>
+  <circle cx="148" cy="100" r="3" fill="#fbbf24"/>
+  
+  <!-- 手臂 -->
+  <path d="M40 200 Q25 230 35 260" stroke="#f43f5e" stroke-width="22" fill="none" stroke-linecap="round"/>
+  <path d="M160 200 Q175 230 165 260" stroke="#f43f5e" stroke-width="22" fill="none" stroke-linecap="round"/>
+  
+  <!-- 手 -->
+  <circle cx="35" cy="265" r="12" fill="url(#skinGrad2)"/>
+  <circle cx="165" cy="265" r="12" fill="url(#skinGrad2)"/>
+  
+  <!-- 平板/数据图表 -->
+  <rect x="60" y="230" width="80" height="50" rx="5" fill="#1e293b"/>
+  <rect x="65" y="235" width="70" height="40" rx="3" fill="#0f172a"/>
+  <!-- 图表 -->
+  <rect x="70" y="255" width="8" height="15" fill="#22c55e"/>
+  <rect x="82" y="250" width="8" height="20" fill="#f43f5e"/>
+  <rect x="94" y="245" width="8" height="25" fill="#fbbf24"/>
+  <rect x="106" y="252" width="8" height="18" fill="#22c55e"/>
+  <rect x="118" y="248" width="8" height="22" fill="#f43f5e"/>
+  <!-- 上升箭头 -->
+  <path d="M125 240 L130 235 L135 240" stroke="#22c55e" stroke-width="2" fill="none"/>
+  <line x1="130" y1="235" x2="130" y2="245" stroke="#22c55e" stroke-width="2"/>
+</svg>
